@@ -1,11 +1,15 @@
 # README #
 
-It is still under development.
-
-### What is this repository for? ###
+### About the game ###
 
 Hack'n'Idle is a game which is a combination of an Idle game and a dungeon crawler.
 
+### Current Version ###
+
 Version: 0.1
 
-### How do I get set up? ###
+### Upcoming changes ###
+
+- Implementation of demo player
+- Implementation of demo level
+- Implementation of demo enemy
