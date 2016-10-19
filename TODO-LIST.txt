@@ -1,0 +1,41 @@
+##############################
+Level:
+	* Extend the map if needed, the current size is a bit small
+	
+UI:
+	* Create a simple UI for the game
+		- Player health bar?
+		- maybe enemy health bar?
+		- XP bar?
+		- Option by pressing escape?
+
+Player:
+	* Animation
+		- Fix animation bug when change from move to idle face animation
+		- Add simple hit animation
+		- Add simple hurt animation
+		- Add simple die animation
+		
+	* Mechanics
+		- Implement health script enemyHealth.cs which handles the HP of the player
+		- Implement attack mechanic in playerController.cs
+
+Enemies:
+	* Create an example enemyHealth
+		- animation optional
+		- Should apply damage to the player somehow
+		- Create prefab of this enemy
+		
+	* Create an example boss enemy
+		- animation optional
+		- Should apply damage to the player somehow
+		- Should have at least one "special move"
+
+Others:
+	* Create a chest which can be taken to get some rewards
+		- I have some sprites out of rpg maker with animation
+		
+	* Create simple level up mechanic
+		
+	* Implement saving progress
+		
