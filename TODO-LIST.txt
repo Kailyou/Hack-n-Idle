@@ -1,14 +1,57 @@
-##############################
+#########################################################################################
+RULES:
+	* To prevent merge conflicts, lock the class which is being changed
+	  to show that you currently are modifying this one. Below is a list,
+	  new class should be added immediately.
+	  
+	* Keep this list updated!
+	
+	* Bigger ideas should be arranged before added
+	
+	* Format rules
+	
+		- Code blocks always:
+		
+			if likeThis()
+			{
+				// do something
+			}
+			
+			if notLikeThis() {
+				// do something
+			}
+			
+		- Use comments!
+			
+		- Script names: Lorim_Ipsum.cs
+
+		- Method names always started with a big letter (Unity default)
+			Example: Calculate_Damage()		
+	
+		- Variable names: int test_variable;
+		
+		
+#########################################################################################
+SCRIPT LIST
+
+Player_Controller.cs		// unlocked
+
+
+#########################################################################################
 Level:
 	* Extend the map if needed, the current size is a bit small
+		
 	
+#########################################################################################	
 UI:
 	* Create a simple UI for the game
 		- Player health bar?
 		- maybe enemy health bar?
 		- XP bar?
 		- Option by pressing escape?
-
+		
+		
+#########################################################################################
 Player:
 	* Animation
 		- Fix animation bug when change from move to idle face animation
@@ -17,9 +60,11 @@ Player:
 		- Add simple die animation
 		
 	* Mechanics
-		- Implement health script enemyHealth.cs which handles the HP of the player
-		- Implement attack mechanic in playerController.cs
+		- Implement health script Enemy_Health.cs which handles the HP of the player
+		- Implement attack mechanic in Player_Controller.cs
 
+
+#########################################################################################
 Enemies:
 	* Create an example enemyHealth
 		- animation optional
@@ -30,12 +75,16 @@ Enemies:
 		- animation optional
 		- Should apply damage to the player somehow
 		- Should have at least one "special move"
-
+		
+		
+#########################################################################################
 Others:
 	* Create a chest which can be taken to get some rewards
-		- I have some sprites out of rpg maker with animation
+		- I have some sprites out of RPG-Maker with animation
 		
 	* Create simple level up mechanic
 		
 	* Implement saving progress
-		
+	
+	
+#########################################################################################
