@@ -9,11 +9,13 @@ public class Player_Controller : MonoBehaviour
     //private AudioSource audioSource;
 
     // Config
-    public float moveSpeed = 7;
+    public float moveSpeed = 2;
+	private bool playerMoving;
+	private Vector2 lastMove;
 
     // Status
     [HideInInspector]
-    public bool do_lock; 
+    public bool locked = false; 
     
     // Melee Attack
     public int meleeDamage = 1;
@@ -31,48 +33,48 @@ public class Player_Controller : MonoBehaviour
 	// Update is called once per frame
 	void Update()
     {
-        float hor = Input.GetAxisRaw("Horizontal");
-        float ver = Input.GetAxisRaw("Vertical");
+		handleUpdate();
 
-        animator.SetFloat("MoveX", hor);
-        animator.SetFloat("MoveY", ver);
-
-        /*
-        if (hor > -0.5f && hor < 0.5f && ver > -0.5f && ver < 0.5f)
-        {
-            animator.SetBool("PlayerMoving", false);
-        }
-        else
-        {
-            animator.SetBool("PlayerMoving", true);
-        }
-        */
-        
-        if (hor > 0.5f || hor < -0.5f)
-        {
-            transform.Translate(new Vector3(hor * moveSpeed * Time.deltaTime,
-                                            0f,
-                                            0f));
-        }
-
-        if (ver > 0.5f || ver < -0.5f)
-        {
-            transform.Translate(new Vector3(0f,
-                                            ver * moveSpeed * Time.deltaTime,
-                                            0f));
-        }
     }
 
-    void FixedUpdate()
-    {
-     
-    }
+	public void handleUpdate()
+	{
+		playerMoving = false;
 
-    // Flips the player
-    public void Flip()
-    {
-        Vector3 myScale = transform.localScale;
-        myScale.x *= -1;
-        transform.localScale = myScale;
-    }
+		if (!locked) 
+		{
+			float hor = Input.GetAxisRaw("Horizontal");
+			float ver = Input.GetAxisRaw("Vertical");
+
+			if (hor > -0.5 && hor < 0.5 && ver > -0.5 && ver > 0.5)
+			{
+				playerMoving = false;
+			}
+
+			if (hor > 0.5f || hor < -0.5f)
+			{
+				transform.Translate(new Vector3(hor * moveSpeed * Time.deltaTime, 0f, 0f));
+				lastMove = new Vector2 (hor, 0f);
+				playerMoving = true;
+			}
+
+			if (ver > 0.5f || ver < -0.5f)
+			{
+				transform.Translate(new Vector3(0f, ver * moveSpeed * Time.deltaTime, 0f));
+				lastMove = new Vector2 (0f, ver);
+				playerMoving = true;
+			}
+
+			animator.SetFloat("MoveX", hor);
+			animator.SetFloat("MoveY", ver);
+			animator.SetBool("PlayerMoving", playerMoving);
+			animator.SetFloat("LastMoveX", lastMove.x);
+			animator.SetFloat("LastMoveY", lastMove.y);
+		}
+	}
+
+	public void FixedUpdate()
+	{
+		
+	}
 }
