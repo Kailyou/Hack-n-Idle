@@ -210,87 +210,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 2113602774}
   m_IsPrefabParent: 0
---- !u!4 &28616044
+--- !u!4 &28616044 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 28616043}
-  m_GameObject: {fileID: 2113602774}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.7999997, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 11
---- !u!1 &39287332
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 833516056}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 833516057}
-  - 212: {fileID: 39287334}
-  - 114: {fileID: 39287333}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (36)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &39287333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 833516056}
-  m_GameObject: {fileID: 39287332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &39287334
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 833516056}
-  m_GameObject: {fileID: 39287332}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &59348425
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,22 +336,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 310535963}
   m_IsPrefabParent: 0
---- !u!4 &72325011
+--- !u!4 &72325011 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 72325010}
-  m_GameObject: {fileID: 310535963}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2799997, y: 0.48, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 20
 --- !u!1001 &77628232
 Prefab:
   m_ObjectHideFlags: 0
@@ -472,22 +387,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 365719032}
   m_IsPrefabParent: 0
---- !u!4 &77628233
+--- !u!4 &77628233 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 77628232}
-  m_GameObject: {fileID: 365719032}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.92, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 9
 --- !u!1001 &81930954
 Prefab:
   m_ObjectHideFlags: 0
@@ -533,22 +438,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 531086567}
   m_IsPrefabParent: 0
---- !u!4 &81930955
+--- !u!4 &81930955 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 81930954}
-  m_GameObject: {fileID: 531086567}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.96, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 7
 --- !u!1 &93957568
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,136 +516,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300062, guid: b101aa64e8b17614785afef0fd0c2158, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &98132957
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1371852472}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1371852473}
-  - 212: {fileID: 98132959}
-  - 114: {fileID: 98132958}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (26)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &98132958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1371852472}
-  m_GameObject: {fileID: 98132957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &98132959
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1371852472}
-  m_GameObject: {fileID: 98132957}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &98615785
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 337081046}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 337081047}
-  - 212: {fileID: 98615787}
-  - 114: {fileID: 98615786}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (35)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &98615786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 337081046}
-  m_GameObject: {fileID: 98615785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &98615787
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 337081046}
-  m_GameObject: {fileID: 98615785}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -874,22 +639,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1773584418}
   m_IsPrefabParent: 0
---- !u!4 &109504789
+--- !u!4 &109504789 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 109504788}
-  m_GameObject: {fileID: 1773584418}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.48, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 6
 --- !u!1001 &113021007
 Prefab:
   m_ObjectHideFlags: 0
@@ -935,87 +690,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 535020353}
   m_IsPrefabParent: 0
---- !u!4 &113021008
+--- !u!4 &113021008 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 113021007}
-  m_GameObject: {fileID: 535020353}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 5
---- !u!1 &140882326
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 371029079}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 371029080}
-  - 212: {fileID: 140882328}
-  - 114: {fileID: 140882327}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (27)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &140882327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 371029079}
-  m_GameObject: {fileID: 140882326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &140882328
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 371029079}
-  m_GameObject: {fileID: 140882326}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &142622059
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,71 +921,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &213152030
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1779030681}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1779030682}
-  - 212: {fileID: 213152032}
-  - 114: {fileID: 213152031}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (12)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &213152031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1779030681}
-  m_GameObject: {fileID: 213152030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &213152032
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1779030681}
-  m_GameObject: {fileID: 213152030}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &218591038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,71 +993,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300062, guid: b101aa64e8b17614785afef0fd0c2158, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &226638299
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 687426850}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 687426851}
-  - 212: {fileID: 226638301}
-  - 114: {fileID: 226638300}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &226638300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 687426850}
-  m_GameObject: {fileID: 226638299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &226638301
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 687426850}
-  m_GameObject: {fileID: 226638299}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1593,136 +1143,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300062, guid: b101aa64e8b17614785afef0fd0c2158, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &260405886
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 800367017}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 800367018}
-  - 212: {fileID: 260405888}
-  - 114: {fileID: 260405887}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (22)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &260405887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 800367017}
-  m_GameObject: {fileID: 260405886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &260405888
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 800367017}
-  m_GameObject: {fileID: 260405886}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &266357285
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 875460106}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 875460107}
-  - 212: {fileID: 266357287}
-  - 114: {fileID: 266357286}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (30)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &266357286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 875460106}
-  m_GameObject: {fileID: 266357285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &266357287
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 875460106}
-  m_GameObject: {fileID: 266357285}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1921,22 +1341,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1214260862}
   m_IsPrefabParent: 0
---- !u!4 &304893679
+--- !u!4 &304893679 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 304893678}
-  m_GameObject: {fileID: 1214260862}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.36, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 28
 --- !u!1 &309786301
 GameObject:
   m_ObjectHideFlags: 0
@@ -2012,71 +1422,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &310535963
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 72325010}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 72325011}
-  - 212: {fileID: 310535965}
-  - 114: {fileID: 310535964}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (20)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &310535964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 72325010}
-  m_GameObject: {fileID: 310535963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &310535965
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 72325010}
-  m_GameObject: {fileID: 310535963}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1001 &327644965
 Prefab:
   m_ObjectHideFlags: 0
@@ -2122,22 +1467,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1652712095}
   m_IsPrefabParent: 0
---- !u!4 &327644966
+--- !u!4 &327644966 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 327644965}
-  m_GameObject: {fileID: 1652712095}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.92, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 37
 --- !u!1 &327797053
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,22 +1593,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 98615785}
   m_IsPrefabParent: 0
---- !u!4 &337081047
+--- !u!4 &337081047 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 337081046}
-  m_GameObject: {fileID: 98615785}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.8799999, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 35
 --- !u!1 &341412021
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,22 +1794,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1793630046}
   m_IsPrefabParent: 0
---- !u!4 &358494658
+--- !u!4 &358494658 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 358494657}
-  m_GameObject: {fileID: 1793630046}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.36, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 34
 --- !u!1 &365640543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,71 +1875,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &365719032
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 77628232}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 77628233}
-  - 212: {fileID: 365719034}
-  - 114: {fileID: 365719033}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &365719033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 77628232}
-  m_GameObject: {fileID: 365719032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &365719034
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 77628232}
-  m_GameObject: {fileID: 365719032}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1001 &371029079
 Prefab:
   m_ObjectHideFlags: 0
@@ -2670,87 +1920,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 140882326}
   m_IsPrefabParent: 0
---- !u!4 &371029080
+--- !u!4 &371029080 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 371029079}
-  m_GameObject: {fileID: 140882326}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.8799999, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 27
---- !u!1 &380417307
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1181653340}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1181653341}
-  - 212: {fileID: 380417309}
-  - 114: {fileID: 380417308}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (18)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &380417308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1181653340}
-  m_GameObject: {fileID: 380417307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &380417309
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1181653340}
-  m_GameObject: {fileID: 380417307}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &414789898
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,71 +2073,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300062, guid: b101aa64e8b17614785afef0fd0c2158, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &462392838
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1036538384}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1036538385}
-  - 212: {fileID: 462392840}
-  - 114: {fileID: 462392839}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (33)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &462392839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1036538384}
-  m_GameObject: {fileID: 462392838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &462392840
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1036538384}
-  m_GameObject: {fileID: 462392838}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3191,136 +2301,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &531086567
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 81930954}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 81930955}
-  - 212: {fileID: 531086569}
-  - 114: {fileID: 531086568}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &531086568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 81930954}
-  m_GameObject: {fileID: 531086567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &531086569
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 81930954}
-  m_GameObject: {fileID: 531086567}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &535020353
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 113021007}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 113021008}
-  - 212: {fileID: 535020355}
-  - 114: {fileID: 535020354}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &535020354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 113021007}
-  m_GameObject: {fileID: 535020353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &535020355
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 113021007}
-  m_GameObject: {fileID: 535020353}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1001 &542727255
 Prefab:
   m_ObjectHideFlags: 0
@@ -3366,87 +2346,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 987742942}
   m_IsPrefabParent: 0
---- !u!4 &542727256
+--- !u!4 &542727256 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 542727255}
-  m_GameObject: {fileID: 987742942}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.4399999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 8
---- !u!1 &559686463
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1343915505}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1343915506}
-  - 212: {fileID: 559686465}
-  - 114: {fileID: 559686464}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (31)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &559686464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1343915505}
-  m_GameObject: {fileID: 559686463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &559686465
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1343915505}
-  m_GameObject: {fileID: 559686463}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &561735834
 GameObject:
   m_ObjectHideFlags: 0
@@ -3522,71 +2427,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &581980425
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2134165763}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2134165764}
-  - 212: {fileID: 581980427}
-  - 114: {fileID: 581980426}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (32)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &581980426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2134165763}
-  m_GameObject: {fileID: 581980425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &581980427
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2134165763}
-  m_GameObject: {fileID: 581980425}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1001 &583540981
 Prefab:
   m_ObjectHideFlags: 0
@@ -3632,22 +2472,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1894781929}
   m_IsPrefabParent: 0
---- !u!4 &583540982
+--- !u!4 &583540982 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 583540981}
-  m_GameObject: {fileID: 1894781929}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2799997, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 21
 --- !u!1 &586843100
 GameObject:
   m_ObjectHideFlags: 0
@@ -3843,22 +2673,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1681971718}
   m_IsPrefabParent: 0
---- !u!4 &623931949
+--- !u!4 &623931949 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 623931948}
-  m_GameObject: {fileID: 1681971718}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4399999, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 24
 --- !u!1 &628822567
 GameObject:
   m_ObjectHideFlags: 0
@@ -3979,22 +2799,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1714652028}
   m_IsPrefabParent: 0
---- !u!4 &633525997
+--- !u!4 &633525997 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 633525996}
-  m_GameObject: {fileID: 1714652028}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2799997, y: 1.92, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 17
 --- !u!1001 &637856156
 Prefab:
   m_ObjectHideFlags: 0
@@ -4040,22 +2850,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1051339186}
   m_IsPrefabParent: 0
---- !u!4 &637856157
+--- !u!4 &637856157 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 637856156}
-  m_GameObject: {fileID: 1051339186}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4399999, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 38
 --- !u!1 &639856852
 GameObject:
   m_ObjectHideFlags: 0
@@ -4131,136 +2931,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &644123788
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1219724386}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1219724387}
-  - 212: {fileID: 644123790}
-  - 114: {fileID: 644123789}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &644123789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1219724386}
-  m_GameObject: {fileID: 644123788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &644123790
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1219724386}
-  m_GameObject: {fileID: 644123788}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &644545156
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2142411927}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2142411928}
-  - 212: {fileID: 644545158}
-  - 114: {fileID: 644545157}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (15)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &644545157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2142411927}
-  m_GameObject: {fileID: 644545156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &644545158
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2142411927}
-  m_GameObject: {fileID: 644545156}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &649456114
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,71 +2963,6 @@ Transform:
   - {fileID: 1397979901}
   m_Father: {fileID: 0}
   m_RootOrder: 3
---- !u!1 &656194250
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 720329683}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 720329684}
-  - 212: {fileID: 656194252}
-  - 114: {fileID: 656194251}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &656194251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 720329683}
-  m_GameObject: {fileID: 656194250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &656194252
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 720329683}
-  m_GameObject: {fileID: 656194250}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &667538738
 GameObject:
   m_ObjectHideFlags: 0
@@ -4474,22 +3079,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 226638299}
   m_IsPrefabParent: 0
---- !u!4 &687426851
+--- !u!4 &687426851 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 687426850}
-  m_GameObject: {fileID: 226638299}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 0
 --- !u!1 &695604461
 GameObject:
   m_ObjectHideFlags: 0
@@ -4760,22 +3355,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 656194250}
   m_IsPrefabParent: 0
---- !u!4 &720329684
+--- !u!4 &720329684 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 720329683}
-  m_GameObject: {fileID: 656194250}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.48, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 1
 --- !u!1 &722959209
 GameObject:
   m_ObjectHideFlags: 0
@@ -5001,71 +3586,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &760891909
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1427836255}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1427836256}
-  - 212: {fileID: 760891911}
-  - 114: {fileID: 760891910}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (25)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &760891910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1427836255}
-  m_GameObject: {fileID: 760891909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &760891911
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1427836255}
-  m_GameObject: {fileID: 760891909}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &791026244
 GameObject:
   m_ObjectHideFlags: 0
@@ -5141,71 +3661,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &793761411
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2120385722}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2120385723}
-  - 212: {fileID: 793761413}
-  - 114: {fileID: 793761412}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &793761412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2120385722}
-  m_GameObject: {fileID: 793761411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &793761413
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2120385722}
-  m_GameObject: {fileID: 793761411}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1001 &800367017
 Prefab:
   m_ObjectHideFlags: 0
@@ -5251,22 +3706,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 260405886}
   m_IsPrefabParent: 0
---- !u!4 &800367018
+--- !u!4 &800367018 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 800367017}
-  m_GameObject: {fileID: 260405886}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.48, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 22
 --- !u!1 &807689045
 GameObject:
   m_ObjectHideFlags: 0
@@ -5387,87 +3832,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 39287332}
   m_IsPrefabParent: 0
---- !u!4 &833516057
+--- !u!4 &833516057 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 833516056}
-  m_GameObject: {fileID: 39287332}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3999999, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 36
---- !u!1 &853438388
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1281216663}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1281216664}
-  - 212: {fileID: 853438390}
-  - 114: {fileID: 853438389}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (19)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &853438389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1281216663}
-  m_GameObject: {fileID: 853438388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &853438390
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1281216663}
-  m_GameObject: {fileID: 853438388}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &856577118
 GameObject:
   m_ObjectHideFlags: 0
@@ -5588,22 +3958,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 266357285}
   m_IsPrefabParent: 0
---- !u!4 &875460107
+--- !u!4 &875460107 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 875460106}
-  m_GameObject: {fileID: 266357285}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.3199997, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 30
 --- !u!1001 &890242261
 Prefab:
   m_ObjectHideFlags: 0
@@ -5649,22 +4009,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1228056784}
   m_IsPrefabParent: 0
---- !u!4 &890242262
+--- !u!4 &890242262 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 890242261}
-  m_GameObject: {fileID: 1228056784}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.48, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 41
 --- !u!1 &915885923
 GameObject:
   m_ObjectHideFlags: 0
@@ -5887,71 +4237,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300062, guid: b101aa64e8b17614785afef0fd0c2158, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &987742942
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 542727255}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 542727256}
-  - 212: {fileID: 987742944}
-  - 114: {fileID: 987742943}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &987742943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 542727255}
-  m_GameObject: {fileID: 987742942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &987742944
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 542727255}
-  m_GameObject: {fileID: 987742942}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6300,22 +4585,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 462392838}
   m_IsPrefabParent: 0
---- !u!4 &1036538385
+--- !u!4 &1036538385 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1036538384}
-  m_GameObject: {fileID: 462392838}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.84, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 33
 --- !u!1 &1049536099
 GameObject:
   m_ObjectHideFlags: 0
@@ -6388,136 +4663,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300062, guid: b101aa64e8b17614785afef0fd0c2158, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &1051339186
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 637856156}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 637856157}
-  - 212: {fileID: 1051339188}
-  - 114: {fileID: 1051339187}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (38)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1051339187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 637856156}
-  m_GameObject: {fileID: 1051339186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1051339188
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 637856156}
-  m_GameObject: {fileID: 1051339186}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &1060889050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1856607313}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1856607314}
-  - 212: {fileID: 1060889052}
-  - 114: {fileID: 1060889051}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (40)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1060889051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1856607313}
-  m_GameObject: {fileID: 1060889050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1060889052
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1856607313}
-  m_GameObject: {fileID: 1060889050}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6671,71 +4816,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &1099705881
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1483871505}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1483871506}
-  - 212: {fileID: 1099705883}
-  - 114: {fileID: 1099705882}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (23)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1099705882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1483871505}
-  m_GameObject: {fileID: 1099705881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1099705883
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1483871505}
-  m_GameObject: {fileID: 1099705881}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &1118799268
 GameObject:
   m_ObjectHideFlags: 0
@@ -6811,71 +4891,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &1155944489
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1854770551}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1854770552}
-  - 212: {fileID: 1155944491}
-  - 114: {fileID: 1155944490}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1155944490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1854770551}
-  m_GameObject: {fileID: 1155944489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1155944491
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1854770551}
-  m_GameObject: {fileID: 1155944489}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1001 &1181653340
 Prefab:
   m_ObjectHideFlags: 0
@@ -6921,22 +4936,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 380417307}
   m_IsPrefabParent: 0
---- !u!4 &1181653341
+--- !u!4 &1181653341 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1181653340}
-  m_GameObject: {fileID: 380417307}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2799997, y: 1.4399999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 18
 --- !u!1 &1191881223
 GameObject:
   m_ObjectHideFlags: 0
@@ -7009,71 +5014,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300062, guid: b101aa64e8b17614785afef0fd0c2158, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &1214260862
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 304893678}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 304893679}
-  - 212: {fileID: 1214260864}
-  - 114: {fileID: 1214260863}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (28)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1214260863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 304893678}
-  m_GameObject: {fileID: 1214260862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1214260864
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 304893678}
-  m_GameObject: {fileID: 1214260862}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7197,87 +5137,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 644123788}
   m_IsPrefabParent: 0
---- !u!4 &1219724387
+--- !u!4 &1219724387 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1219724386}
-  m_GameObject: {fileID: 644123788}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.96, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 2
---- !u!1 &1228056784
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 890242261}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 890242262}
-  - 212: {fileID: 1228056786}
-  - 114: {fileID: 1228056785}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (41)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1228056785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 890242261}
-  m_GameObject: {fileID: 1228056784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1228056786
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 890242261}
-  m_GameObject: {fileID: 1228056784}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &1230233676
 GameObject:
   m_ObjectHideFlags: 0
@@ -7548,22 +5413,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1752697441}
   m_IsPrefabParent: 0
---- !u!4 &1267333710
+--- !u!4 &1267333710 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1267333709}
-  m_GameObject: {fileID: 1752697441}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.84, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 29
 --- !u!1001 &1281216663
 Prefab:
   m_ObjectHideFlags: 0
@@ -7609,22 +5464,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 853438388}
   m_IsPrefabParent: 0
---- !u!4 &1281216664
+--- !u!4 &1281216664 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1281216663}
-  m_GameObject: {fileID: 853438388}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2799997, y: 0.96, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 19
 --- !u!1001 &1294224964
 Prefab:
   m_ObjectHideFlags: 0
@@ -7670,22 +5515,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1427998527}
   m_IsPrefabParent: 0
---- !u!4 &1294224965
+--- !u!4 &1294224965 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1294224964}
-  m_GameObject: {fileID: 1427998527}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2799997, y: -0.96, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 14
 --- !u!1 &1315483076
 GameObject:
   m_ObjectHideFlags: 0
@@ -7806,22 +5641,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 559686463}
   m_IsPrefabParent: 0
---- !u!4 &1343915506
+--- !u!4 &1343915506 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1343915505}
-  m_GameObject: {fileID: 559686463}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2799997, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 31
 --- !u!1001 &1371852472
 Prefab:
   m_ObjectHideFlags: 0
@@ -7867,22 +5692,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 98132957}
   m_IsPrefabParent: 0
---- !u!4 &1371852473
+--- !u!4 &1371852473 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1371852472}
-  m_GameObject: {fileID: 98132957}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3999999, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 26
 --- !u!1 &1372313161
 GameObject:
   m_ObjectHideFlags: 0
@@ -8239,87 +6054,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 760891909}
   m_IsPrefabParent: 0
---- !u!4 &1427836256
+--- !u!4 &1427836256 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1427836255}
-  m_GameObject: {fileID: 760891909}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.92, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 25
---- !u!1 &1427998527
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1294224964}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1294224965}
-  - 212: {fileID: 1427998529}
-  - 114: {fileID: 1427998528}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1427998528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1294224964}
-  m_GameObject: {fileID: 1427998527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1427998529
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1294224964}
-  m_GameObject: {fileID: 1427998527}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &1453069286
 GameObject:
   m_ObjectHideFlags: 0
@@ -8515,22 +6255,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1099705881}
   m_IsPrefabParent: 0
---- !u!4 &1483871506
+--- !u!4 &1483871506 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1483871505}
-  m_GameObject: {fileID: 1099705881}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.96, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 23
 --- !u!1 &1484326325
 GameObject:
   m_ObjectHideFlags: 0
@@ -8842,71 +6572,6 @@ BoxCollider2D:
   m_Offset: {x: 0.24, y: -0.27}
   serializedVersion: 2
   m_Size: {x: 0.48, y: 4.32}
---- !u!1 &1533946705
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1819139883}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1819139884}
-  - 212: {fileID: 1533946707}
-  - 114: {fileID: 1533946706}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1533946706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1819139883}
-  m_GameObject: {fileID: 1533946705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1533946707
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1819139883}
-  m_GameObject: {fileID: 1533946705}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &1564904162
 GameObject:
   m_ObjectHideFlags: 0
@@ -9027,22 +6692,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1728616990}
   m_IsPrefabParent: 0
---- !u!4 &1565075138
+--- !u!4 &1565075138 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1565075137}
-  m_GameObject: {fileID: 1728616990}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2799997, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 16
 --- !u!1 &1588095148
 GameObject:
   m_ObjectHideFlags: 0
@@ -9127,10 +6782,11 @@ GameObject:
   m_Component:
   - 4: {fileID: 1603563017}
   - 212: {fileID: 1603563016}
+  - 95: {fileID: 1603563020}
   - 50: {fileID: 1603563015}
   - 60: {fileID: 1603563018}
   - 114: {fileID: 1603563019}
-  - 95: {fileID: 1603563020}
+  - 114: {fileID: 1603563021}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -9197,7 +6853,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.91, y: -0.24, z: 0}
   m_LocalScale: {x: 1.5716708, y: 1.5716708, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: -0.4169096, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -9231,7 +6887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  do_lock: 0
+  locked: 0
   meleeDamage: 1
 --- !u!95 &1603563020
 Animator:
@@ -9250,71 +6906,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &1652712095
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 327644965}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 327644966}
-  - 212: {fileID: 1652712097}
-  - 114: {fileID: 1652712096}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (37)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1652712096
+--- !u!114 &1603563021
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 327644965}
-  m_GameObject: {fileID: 1652712095}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1603563014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e4e51efa46ea5049be3ebad0152b3b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1652712097
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 327644965}
-  m_GameObject: {fileID: 1652712095}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
+  maxHealthPoints: 10
 --- !u!1 &1652785860
 GameObject:
   m_ObjectHideFlags: 0
@@ -9433,266 +7036,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &1681971718
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 623931948}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 623931949}
-  - 212: {fileID: 1681971720}
-  - 114: {fileID: 1681971719}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (24)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1681971719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 623931948}
-  m_GameObject: {fileID: 1681971718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1681971720
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 623931948}
-  m_GameObject: {fileID: 1681971718}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &1693215628
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2030797553}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2030797554}
-  - 212: {fileID: 1693215630}
-  - 114: {fileID: 1693215629}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (39)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1693215629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2030797553}
-  m_GameObject: {fileID: 1693215628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1693215630
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2030797553}
-  m_GameObject: {fileID: 1693215628}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &1714652028
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 633525996}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 633525997}
-  - 212: {fileID: 1714652030}
-  - 114: {fileID: 1714652029}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (17)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1714652029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 633525996}
-  m_GameObject: {fileID: 1714652028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1714652030
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 633525996}
-  m_GameObject: {fileID: 1714652028}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &1728616990
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1565075137}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1565075138}
-  - 212: {fileID: 1728616992}
-  - 114: {fileID: 1728616991}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (16)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1728616991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1565075137}
-  m_GameObject: {fileID: 1728616990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1728616992
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1565075137}
-  m_GameObject: {fileID: 1728616990}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &1735035407
 GameObject:
   m_ObjectHideFlags: 0
@@ -9765,71 +7108,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300062, guid: b101aa64e8b17614785afef0fd0c2158, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &1752697441
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1267333709}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1267333710}
-  - 212: {fileID: 1752697443}
-  - 114: {fileID: 1752697442}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (29)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1752697442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1267333709}
-  m_GameObject: {fileID: 1752697441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1752697443
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 1267333709}
-  m_GameObject: {fileID: 1752697441}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9980,71 +7258,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300062, guid: b101aa64e8b17614785afef0fd0c2158, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &1773584418
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 109504788}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 109504789}
-  - 212: {fileID: 1773584420}
-  - 114: {fileID: 1773584419}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1773584419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 109504788}
-  m_GameObject: {fileID: 1773584418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1773584420
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 109504788}
-  m_GameObject: {fileID: 1773584418}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10243,22 +7456,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 213152030}
   m_IsPrefabParent: 0
---- !u!4 &1779030682
+--- !u!4 &1779030682 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1779030681}
-  m_GameObject: {fileID: 213152030}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2799997, y: -1.92, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 12
 --- !u!1 &1780686312
 GameObject:
   m_ObjectHideFlags: 0
@@ -10409,71 +7612,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &1793630046
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 358494657}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 358494658}
-  - 212: {fileID: 1793630048}
-  - 114: {fileID: 1793630047}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (34)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1793630047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 358494657}
-  m_GameObject: {fileID: 1793630046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1793630048
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 358494657}
-  m_GameObject: {fileID: 1793630046}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1001 &1819139883
 Prefab:
   m_ObjectHideFlags: 0
@@ -10519,22 +7657,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1533946705}
   m_IsPrefabParent: 0
---- !u!4 &1819139884
+--- !u!4 &1819139884 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1819139883}
-  m_GameObject: {fileID: 1533946705}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.92, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 4
 --- !u!1 &1836702617
 GameObject:
   m_ObjectHideFlags: 0
@@ -10730,22 +7858,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1155944489}
   m_IsPrefabParent: 0
---- !u!4 &1854770552
+--- !u!4 &1854770552 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1854770551}
-  m_GameObject: {fileID: 1155944489}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 10
 --- !u!1001 &1856607313
 Prefab:
   m_ObjectHideFlags: 0
@@ -10791,22 +7909,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1060889050}
   m_IsPrefabParent: 0
---- !u!4 &1856607314
+--- !u!4 &1856607314 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 1856607313}
-  m_GameObject: {fileID: 1060889050}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.7999997, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 40
 --- !u!1 &1860337542
 GameObject:
   m_ObjectHideFlags: 0
@@ -11179,71 +8287,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300062, guid: b101aa64e8b17614785afef0fd0c2158, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!1 &1894781929
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 583540981}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 583540982}
-  - 212: {fileID: 1894781931}
-  - 114: {fileID: 1894781930}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (21)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1894781930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 583540981}
-  m_GameObject: {fileID: 1894781929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &1894781931
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 583540981}
-  m_GameObject: {fileID: 1894781929}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11887,87 +8930,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 1693215628}
   m_IsPrefabParent: 0
---- !u!4 &2030797554
+--- !u!4 &2030797554 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 2030797553}
-  m_GameObject: {fileID: 1693215628}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.96, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 39
---- !u!1 &2030892127
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2035026966}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2035026967}
-  - 212: {fileID: 2030892129}
-  - 114: {fileID: 2030892128}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2030892128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2035026966}
-  m_GameObject: {fileID: 2030892127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &2030892129
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 2035026966}
-  m_GameObject: {fileID: 2030892127}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1001 &2035026966
 Prefab:
   m_ObjectHideFlags: 0
@@ -12013,22 +8981,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 2030892127}
   m_IsPrefabParent: 0
---- !u!4 &2035026967
+--- !u!4 &2035026967 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 2035026966}
-  m_GameObject: {fileID: 2030892127}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.4399999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 3
 --- !u!1 &2040644796
 GameObject:
   m_ObjectHideFlags: 0
@@ -12341,71 +9299,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &2113602774
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012041809996, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 28616043}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 28616044}
-  - 212: {fileID: 2113602776}
-  - 114: {fileID: 2113602775}
-  m_Layer: 0
-  m_Name: Dungeon_A4_112 (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2113602775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000010791461820, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 28616043}
-  m_GameObject: {fileID: 2113602774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6cbe0d38c3a54ab5a5c3cddb49370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.48
---- !u!212 &2113602776
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212000011288301348, guid: 30298f3dc83b9b347a1069c3820d6870,
-    type: 2}
-  m_PrefabInternal: {fileID: 28616043}
-  m_GameObject: {fileID: 2113602774}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300224, guid: 03b42f5b18daea346b284ef6397c6ac6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &2117060786
 GameObject:
   m_ObjectHideFlags: 0
@@ -12526,22 +9419,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 793761411}
   m_IsPrefabParent: 0
---- !u!4 &2120385723
+--- !u!4 &2120385723 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 2120385722}
-  m_GameObject: {fileID: 793761411}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2799997, y: -1.4399999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 13
 --- !u!1001 &2134165763
 Prefab:
   m_ObjectHideFlags: 0
@@ -12587,22 +9470,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 581980425}
   m_IsPrefabParent: 0
---- !u!4 &2134165764
+--- !u!4 &2134165764 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 2134165763}
-  m_GameObject: {fileID: 581980425}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.3199997, y: 2.3999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 32
 --- !u!1001 &2142411927
 Prefab:
   m_ObjectHideFlags: 0
@@ -12648,22 +9521,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30298f3dc83b9b347a1069c3820d6870, type: 2}
-  m_RootGameObject: {fileID: 644545156}
   m_IsPrefabParent: 0
---- !u!4 &2142411928
+--- !u!4 &2142411928 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4000010909449092, guid: 30298f3dc83b9b347a1069c3820d6870,
     type: 2}
   m_PrefabInternal: {fileID: 2142411927}
-  m_GameObject: {fileID: 644545156}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2799997, y: -0.48, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1910659906}
-  m_RootOrder: 15
 --- !u!1 &2144903597
 GameObject:
   m_ObjectHideFlags: 0
