@@ -43,13 +43,10 @@ public class Player_Controller : MonoBehaviour
 
 		if (!locked) 
 		{
+			playerMoving = false;
+
 			float hor = Input.GetAxisRaw("Horizontal");
 			float ver = Input.GetAxisRaw("Vertical");
-
-			if (hor > -0.5 && hor < 0.5 && ver > -0.5 && ver > 0.5)
-			{
-				playerMoving = false;
-			}
 
 			if (hor > 0.5f || hor < -0.5f)
 			{
