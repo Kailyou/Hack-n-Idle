@@ -34,7 +34,8 @@ RULES:
 #########################################################################################
 SCRIPT LIST
 
-Player_Controller.cs		// unlocked
+Player_Controller.cs		// locked
+Player_Health.cs		// unlocked
 
 
 #########################################################################################
@@ -54,19 +55,17 @@ UI:
 #########################################################################################
 Player:
 	* Animation
-		- Fix animation bug when change from move to idle face animation
 		- Add simple hit animation
 		- Add simple hurt animation
 		- Add simple die animation
 		
 	* Mechanics
-		- Implement health script Enemy_Health.cs which handles the HP of the player
-		- Implement attack mechanic in Player_Controller.cs
+		- Implement attack mechanic in Player_Controller.cs	// ON WORK MAIK
 
 
 #########################################################################################
 Enemies:
-	* Create an example enemyHealth
+	* Create an example enemy
 		- animation optional
 		- Should apply damage to the player somehow
 		- Create prefab of this enemy
