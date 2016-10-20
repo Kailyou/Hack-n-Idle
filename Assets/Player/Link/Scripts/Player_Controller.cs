@@ -34,7 +34,6 @@ public class Player_Controller : MonoBehaviour
 	void Update()
     {
 		handleUpdate();
-
     }
 
 	public void handleUpdate()
