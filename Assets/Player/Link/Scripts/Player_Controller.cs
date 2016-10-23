@@ -10,7 +10,8 @@ public class Player_Controller : MonoBehaviour
 
     // Config
     public float moveSpeed = 2;
-	private bool playerMoving;
+	private bool playerMovingHorVer;
+	private bool playerMovingDiagonal;
 	private Vector2 lastMove;
 
     // Status
@@ -29,48 +30,99 @@ public class Player_Controller : MonoBehaviour
         animator = GetComponent<Animator>();
         //audioSource = GetComponent<AudioSource>();
     }
-	
+
 	// Update is called once per frame
-	void Update()
+	private void Update()
     {
-		handleUpdate();
+		Debug.Log (rb2d.velocity);
+
+		Handle_User_Input_Movement();
     }
 
-	public void handleUpdate()
+	private void Handle_User_Input_Movement()
 	{
-		playerMoving = false;
-
 		if (!locked) 
 		{
-			playerMoving = false;
+			playerMovingHorVer   = false;
+			playerMovingDiagonal = false;
 
 			float hor = Input.GetAxisRaw("Horizontal");
 			float ver = Input.GetAxisRaw("Vertical");
 
-			if (hor > 0.5f || hor < -0.5f)
+			// Check if player is moving directional
+			if ((hor > 0.5f && ver > 0.5f)
+				|| (hor > 0.5f && ver < -0.5f)
+				|| (hor < -0.5f && ver < -0.5f)
+				|| (hor < -0.5f && ver > 0.5f))
 			{
-				transform.Translate(new Vector3(hor * moveSpeed * Time.deltaTime, 0f, 0f));
-				lastMove = new Vector2 (hor, 0f);
-				playerMoving = true;
+				playerMovingHorVer   = false;
+				playerMovingDiagonal = true;
 			}
 
+			// Horizontal Movement
+			if (hor > 0.5f || hor < -0.5f)
+			{
+				if (!playerMovingDiagonal)
+				{
+					playerMovingHorVer   = true;
+					playerMovingDiagonal = false;
+				}
+			}
+
+			// Vertical Movement
 			if (ver > 0.5f || ver < -0.5f)
 			{
-				transform.Translate(new Vector3(0f, ver * moveSpeed * Time.deltaTime, 0f));
-				lastMove = new Vector2 (0f, ver);
-				playerMoving = true;
+				if (!playerMovingDiagonal)
+				{
+					playerMovingHorVer = true;
+					playerMovingDiagonal = false;
+				}
 			}
 
 			animator.SetFloat("MoveX", hor);
 			animator.SetFloat("MoveY", ver);
-			animator.SetBool("PlayerMoving", playerMoving);
+			animator.SetBool("PlayerMovingHorVer", playerMovingHorVer);
+			animator.SetBool("PlayerMovingDiagonal", playerMovingDiagonal);
 			animator.SetFloat("LastMoveX", lastMove.x);
 			animator.SetFloat("LastMoveY", lastMove.y);
 		}
 	}
 
-	public void FixedUpdate()
+	private void FixedUpdate()
 	{
-		
+		if (!locked) 
+		{
+			float hor = Input.GetAxisRaw ("Horizontal");
+			float ver = Input.GetAxisRaw ("Vertical");
+
+			// Set player's speed to zero while not moving
+			if (hor == 0 && ver == 0) 
+			{
+				rb2d.velocity = new Vector2 (0f, 0f);
+			}
+			else 
+			{
+				if (!playerMovingDiagonal) 
+				{
+					rb2d.velocity = new Vector2 (hor * moveSpeed, ver * moveSpeed);
+				}
+				else
+				{
+					rb2d.velocity = new Vector2(hor * (moveSpeed/2), ver * (moveSpeed/2));
+				}
+
+				lastMove = new Vector2 (hor, ver);
+			}
+		}
+	}
+
+	public void Handle_User_Input_Attack()
+	{
+		// Melee Attack
+		if (Input.GetButtonDown ("Fire1") && Time.time > next_attack_melee)
+		{
+			animator.SetTrigger ("attacking_melee");
+			next_attack_melee = Time.time + attackCooldownTime_melee;
+		}
 	}
 }
