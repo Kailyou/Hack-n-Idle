@@ -10,18 +10,19 @@ public class Player_Controller : MonoBehaviour
 
     // Config
     public float moveSpeed = 2;
-	private bool playerMovingHorVer;
-	private bool playerMovingDiagonal;
+	private bool playerMoving;
+	private bool diagonal;
 	private Vector2 lastMove;
 
     // Status
     [HideInInspector]
-    public bool locked = false; 
+    public bool locked    = false; 
+	public bool attacking = false;
     
     // Melee Attack
     public int meleeDamage = 1;
-    private float attackCooldownTime_melee = 0.25f;
-    private float next_attack_melee = 0f;
+	private float attackCooldownTime_sword = 0.6f;
+    private float next_attack_sword = 0f;
 
     // Use this for initialization
     void Start()
@@ -34,7 +35,9 @@ public class Player_Controller : MonoBehaviour
 	// Update is called once per frame
 	private void Update()
     {
-		Debug.Log (rb2d.velocity);
+		Animation anim = GetComponent<Animation>();
+		anim.Play();
+		Debug.Log(anim.clip.length.ToString());
 
 		Handle_User_Input_Movement();
     }
@@ -43,48 +46,48 @@ public class Player_Controller : MonoBehaviour
 	{
 		if (!locked) 
 		{
-			playerMovingHorVer   = false;
-			playerMovingDiagonal = false;
+			playerMoving   = false;
 
 			float hor = Input.GetAxisRaw("Horizontal");
 			float ver = Input.GetAxisRaw("Vertical");
 
 			// Check if player is moving directional
-			if ((hor > 0.5f && ver > 0.5f)
-				|| (hor > 0.5f && ver < -0.5f)
-				|| (hor < -0.5f && ver < -0.5f)
-				|| (hor < -0.5f && ver > 0.5f))
+			if (hor > 0.5f && ver > 0.5f
+			    || hor > 0.5f && ver < -0.5f
+			    || hor < -0.5f && ver < -0.5f
+			    || hor < -0.5f && ver > 0.5f)
 			{
-				playerMovingHorVer   = false;
-				playerMovingDiagonal = true;
+				diagonal = true;
+			} 
+			else 
+			{
+				diagonal = false;
 			}
-
+			
 			// Horizontal Movement
-			if (hor > 0.5f || hor < -0.5f)
+			if (hor > 0.5f || hor < -0.5f || ver > 0.5f || ver < -0.5f)
 			{
-				if (!playerMovingDiagonal)
-				{
-					playerMovingHorVer   = true;
-					playerMovingDiagonal = false;
-				}
+				playerMoving   = true;
 			}
 
-			// Vertical Movement
-			if (ver > 0.5f || ver < -0.5f)
+			if(Input.GetButtonDown("Fire1") && Time.time > next_attack_sword)
 			{
-				if (!playerMovingDiagonal)
-				{
-					playerMovingHorVer = true;
-					playerMovingDiagonal = false;
-				}
+				animator.SetTrigger("Attacking_Sword");
+				attacking = true;
+				next_attack_sword = Time.time + attackCooldownTime_sword;
 			}
 
+			// set attack to false
+			if (attacking && Time.time > next_attack_sword) 
+			{
+				attacking = false;
+			}
+								
 			animator.SetFloat("MoveX", hor);
 			animator.SetFloat("MoveY", ver);
-			animator.SetBool("PlayerMovingHorVer", playerMovingHorVer);
-			animator.SetBool("PlayerMovingDiagonal", playerMovingDiagonal);
 			animator.SetFloat("LastMoveX", lastMove.x);
 			animator.SetFloat("LastMoveY", lastMove.y);
+			animator.SetBool("PlayerMoving", playerMoving);
 		}
 	}
 
@@ -95,34 +98,33 @@ public class Player_Controller : MonoBehaviour
 			float hor = Input.GetAxisRaw ("Horizontal");
 			float ver = Input.GetAxisRaw ("Vertical");
 
-			// Set player's speed to zero while not moving
-			if (hor == 0 && ver == 0) 
+			// Stop move while attacking
+			if (attacking) 
 			{
-				rb2d.velocity = new Vector2 (0f, 0f);
-			}
+				Debug.Log ("test");
+				rb2d.velocity = new Vector2 (0, 0);
+			} 
 			else 
 			{
-				if (!playerMovingDiagonal) 
+				// Set player's speed to zero while not moving
+				if (hor == 0 && ver == 0) 
 				{
-					rb2d.velocity = new Vector2 (hor * moveSpeed, ver * moveSpeed);
+					rb2d.velocity = new Vector2 (0f, 0f);
 				}
-				else
+				else 
 				{
-					rb2d.velocity = new Vector2(hor * (moveSpeed/2), ver * (moveSpeed/2));
-				}
+					if (!diagonal) 
+					{
+						rb2d.velocity = new Vector2 (hor * moveSpeed, ver * moveSpeed);
+					}
+					else
+					{
+						rb2d.velocity = new Vector2(hor * (moveSpeed/2), ver * (moveSpeed));
+					}
 
-				lastMove = new Vector2 (hor, ver);
+					lastMove = new Vector2 (hor, ver);
+				}
 			}
-		}
-	}
-
-	public void Handle_User_Input_Attack()
-	{
-		// Melee Attack
-		if (Input.GetButtonDown ("Fire1") && Time.time > next_attack_melee)
-		{
-			animator.SetTrigger ("attacking_melee");
-			next_attack_melee = Time.time + attackCooldownTime_melee;
 		}
 	}
 }
