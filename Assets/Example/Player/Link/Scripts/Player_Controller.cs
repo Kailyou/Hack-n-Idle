@@ -35,10 +35,6 @@ public class Player_Controller : MonoBehaviour
 	// Update is called once per frame
 	private void Update()
     {
-		Animation anim = GetComponent<Animation>();
-		anim.Play();
-		Debug.Log(anim.clip.length.ToString());
-
 		Handle_User_Input_Movement();
     }
 
